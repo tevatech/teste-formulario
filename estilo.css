@@ -1,0 +1,54 @@
+
+body {
+  background-color: #9bdafc; 
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box h2 {
+  color: #585858;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+
+.form-box {
+  background-color: #ffffff;
+  padding: 30px 50px;
+  border-radius: 15px; 
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2); 
+  width: 100%;
+  max-width: 850px;
+}
+
+
+.form-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  
+  padding-right: 2.5rem;
+
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c77bf'%3E%3Cpath d='M7.247 11.14 2.451 5.658c-.566-.65-.106-1.658.753-1.658h9.592c.86 0 1.32 1.008.753 1.658l-4.796 5.482a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+
+.form-box .form-control,
+.form-box .form-select {
+  height: 58px;
+}
+
+.form-floating .form-control:focus + label {
+  color: #0c77bf;
+}
+
+
+.btn-sombra {
+  box-shadow: 0 6px 15px rgba(12, 119, 191, 0.4);
+  transition: all 0.2s ease;
+}
